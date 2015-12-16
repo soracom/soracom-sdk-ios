@@ -24,7 +24,7 @@ Soracom will be available through [CocoaPods](http://cocoapods.org).
 ```sh
 cd Example
 pod install
-open Example/Soracom.xcworkspace
+open Soracom.xcworkspace
 ```
 
 ## Author
