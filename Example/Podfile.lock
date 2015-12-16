@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (3.1.3)
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - Nimble (3.0.0)
+  - Nimble-Snapshots (3.0.0):
+    - FBSnapshotTestCase (~> 2.0.7)
+    - Nimble
+    - Quick
+  - Quick (0.8.0)
+  - Soracom (0.1.0):
+    - Alamofire (~> 3.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Nimble (= 3.0.0)
+  - Nimble-Snapshots
+  - Quick (~> 0.8.0)
+  - Soracom (from `../`)
+
+EXTERNAL SOURCES:
+  Soracom:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 9f93b56389e48def9220dd57d1f44b1927229a5a
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
+  Nimble-Snapshots: ab41dd737dcd33a0b0cb005a30465fef70b7207a
+  Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
+  Soracom: afd518ee440990e5f3ab0ed40406fb6eb5aecc9d
+
+COCOAPODS: 0.39.0
