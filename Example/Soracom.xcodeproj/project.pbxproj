@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25D006337DC64FCA6DCFF8DE /* Pods_Soracom_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C8FCD94B6103025829243D /* Pods_Soracom_Tests.framework */; };
+		484BE750262C5BD959F1240B /* Pods_Soracom_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4EE14DD124DAB05C12BC2A /* Pods_Soracom_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		8E18F6A56E3D8444CB413F2D /* Pods_Soracom_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB76223FBC769C4C7CBA7AC /* Pods_Soracom_Example.framework */; };
+		89E2C3A444ABBFC0C608AB8D /* Pods_Soracom_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF430DD0EACB01E17820432A /* Pods_Soracom_Tests.framework */; };
 		D64C005E1C21988E00820918 /* SubscriberTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64C005D1C21988E00820918 /* SubscriberTableViewController.swift */; };
 		D64C00601C219D9B00820918 /* SubscriberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64C005F1C219D9B00820918 /* SubscriberTableViewCell.swift */; };
 		D672B00E1C21A7D100E16AF3 /* SubscriberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672B00D1C21A7D100E16AF3 /* SubscriberViewController.swift */; };
@@ -31,9 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01F38F578E69AD9527A08D02 /* Pods-Soracom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soracom_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Soracom_Tests/Pods-Soracom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0FE6DA665A66232654DB5CB1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		141BCF4296CEACA20A2C81D0 /* Pods-Soracom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soracom_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Soracom_Tests/Pods-Soracom_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1C50DF09F0271D51C299F532 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2D4EE14DD124DAB05C12BC2A /* Pods_Soracom_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soracom_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED97059C0B4DD95F0B0E4F1 /* Pods-Soracom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soracom_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Soracom_Tests/Pods-Soracom_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5E0C97ACE5278604403FB408 /* Pods-Soracom_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soracom_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Soracom_Example/Pods-Soracom_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Soracom_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soracom_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,15 +47,12 @@
 		607FACE51AFB9204008FA782 /* Soracom_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Soracom_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		91C8FCD94B6103025829243D /* Pods_Soracom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soracom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97AC402B7CC2A8DAF722DD7 /* Soracom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Soracom.podspec; path = ../Soracom.podspec; sourceTree = "<group>"; };
-		B1B2F728F65FFC32E70A0139 /* Pods-Soracom_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soracom_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Soracom_Example/Pods-Soracom_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BFB194BDFEC056FA5F7CE4D4 /* Pods-Soracom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soracom_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Soracom_Tests/Pods-Soracom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C309FB95697B5A9E6E725E3D /* Pods-Soracom_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soracom_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Soracom_Example/Pods-Soracom_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AC4696D85E676B483AB232E4 /* Pods-Soracom_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soracom_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Soracom_Example/Pods-Soracom_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D64C005D1C21988E00820918 /* SubscriberTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriberTableViewController.swift; sourceTree = "<group>"; };
 		D64C005F1C219D9B00820918 /* SubscriberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriberTableViewCell.swift; sourceTree = "<group>"; };
 		D672B00D1C21A7D100E16AF3 /* SubscriberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriberViewController.swift; sourceTree = "<group>"; };
-		FBB76223FBC769C4C7CBA7AC /* Pods_Soracom_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soracom_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF430DD0EACB01E17820432A /* Pods_Soracom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soracom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E18F6A56E3D8444CB413F2D /* Pods_Soracom_Example.framework in Frameworks */,
+				484BE750262C5BD959F1240B /* Pods_Soracom_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,18 +68,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25D006337DC64FCA6DCFF8DE /* Pods_Soracom_Tests.framework in Frameworks */,
+				89E2C3A444ABBFC0C608AB8D /* Pods_Soracom_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		476366A99C39C892215A6DD5 /* Frameworks */ = {
+		14256A891B15779878AC0C97 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FBB76223FBC769C4C7CBA7AC /* Pods_Soracom_Example.framework */,
-				91C8FCD94B6103025829243D /* Pods_Soracom_Tests.framework */,
+				5E0C97ACE5278604403FB408 /* Pods-Soracom_Example.debug.xcconfig */,
+				AC4696D85E676B483AB232E4 /* Pods-Soracom_Example.release.xcconfig */,
+				01F38F578E69AD9527A08D02 /* Pods-Soracom_Tests.debug.xcconfig */,
+				3ED97059C0B4DD95F0B0E4F1 /* Pods-Soracom_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		192E7B93D81543146A32C36B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D4EE14DD124DAB05C12BC2A /* Pods_Soracom_Example.framework */,
+				EF430DD0EACB01E17820432A /* Pods_Soracom_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -91,8 +102,8 @@
 				607FACD21AFB9204008FA782 /* Example for Soracom */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				9F5DF399F33BAA0CAF898E24 /* Pods */,
-				476366A99C39C892215A6DD5 /* Frameworks */,
+				14256A891B15779878AC0C97 /* Pods */,
+				192E7B93D81543146A32C36B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,17 +168,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		9F5DF399F33BAA0CAF898E24 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B1B2F728F65FFC32E70A0139 /* Pods-Soracom_Example.debug.xcconfig */,
-				C309FB95697B5A9E6E725E3D /* Pods-Soracom_Example.release.xcconfig */,
-				BFB194BDFEC056FA5F7CE4D4 /* Pods-Soracom_Tests.debug.xcconfig */,
-				141BCF4296CEACA20A2C81D0 /* Pods-Soracom_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,12 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Soracom_Example" */;
 			buildPhases = (
-				BF4AB5F83783D34BE0B7A179 /* Check Pods Manifest.lock */,
+				0349DF06EB18BE9D15F911A2 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				40BB78FE08842FF427072CC3 /* Embed Pods Frameworks */,
-				69A3CA6BF604A339061D0F54 /* Copy Pods Resources */,
+				DDA7383D45AE71266EBF94B1 /* [CP] Embed Pods Frameworks */,
+				9F6D8FB1934BF245819F8D1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,12 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Soracom_Tests" */;
 			buildPhases = (
-				609A717E1CA3B6EBE57709D5 /* Check Pods Manifest.lock */,
+				610B123FFF85745F56377CE4 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				21F2C2B1226BFCE9A335FDC8 /* Embed Pods Frameworks */,
-				FF5811795A1CD7C873B915D4 /* Copy Pods Resources */,
+				E98CBAC388816F6FC57391D4 /* [CP] Embed Pods Frameworks */,
+				23DD6EFCD84C580F20530164 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,44 +271,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		21F2C2B1226BFCE9A335FDC8 /* Embed Pods Frameworks */ = {
+		0349DF06EB18BE9D15F911A2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soracom_Tests/Pods-Soracom_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		40BB78FE08842FF427072CC3 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soracom_Example/Pods-Soracom_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		609A717E1CA3B6EBE57709D5 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,14 +286,44 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		69A3CA6BF604A339061D0F54 /* Copy Pods Resources */ = {
+		23DD6EFCD84C580F20530164 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soracom_Tests/Pods-Soracom_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		610B123FFF85745F56377CE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F6D8FB1934BF245819F8D1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,34 +331,34 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soracom_Example/Pods-Soracom_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BF4AB5F83783D34BE0B7A179 /* Check Pods Manifest.lock */ = {
+		DDA7383D45AE71266EBF94B1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soracom_Example/Pods-Soracom_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FF5811795A1CD7C873B915D4 /* Copy Pods Resources */ = {
+		E98CBAC388816F6FC57391D4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soracom_Tests/Pods-Soracom_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soracom_Tests/Pods-Soracom_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -498,7 +498,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1B2F728F65FFC32E70A0139 /* Pods-Soracom_Example.debug.xcconfig */;
+			baseConfigurationReference = 5E0C97ACE5278604403FB408 /* Pods-Soracom_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Soracom/Info.plist;
@@ -511,7 +511,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C309FB95697B5A9E6E725E3D /* Pods-Soracom_Example.release.xcconfig */;
+			baseConfigurationReference = AC4696D85E676B483AB232E4 /* Pods-Soracom_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Soracom/Info.plist;
@@ -524,7 +524,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFB194BDFEC056FA5F7CE4D4 /* Pods-Soracom_Tests.debug.xcconfig */;
+			baseConfigurationReference = 01F38F578E69AD9527A08D02 /* Pods-Soracom_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -545,7 +545,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 141BCF4296CEACA20A2C81D0 /* Pods-Soracom_Tests.release.xcconfig */;
+			baseConfigurationReference = 3ED97059C0B4DD95F0B0E4F1 /* Pods-Soracom_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
