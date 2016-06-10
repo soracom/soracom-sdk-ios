@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'Soracom_Example', :exclusive => true do
+target 'Soracom_Example' do
   pod "Soracom", :path => "../"
 end
 
-target 'Soracom_Tests', :exclusive => true do
+target 'Soracom_Tests' do
   pod "Soracom", :path => "../"
 
   pod 'Quick', '~> 0.8.0'
